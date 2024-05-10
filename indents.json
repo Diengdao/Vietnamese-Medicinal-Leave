@@ -1,0 +1,81 @@
+{
+    "intents": [
+      {
+        "tag": "Chào",
+        "patterns": ["Xin Chào", "Chào", "Chào bạn"],
+        "responses": [
+          "Xin Chào! Tôi có thể giúp gì cho bạn nhỉ?",
+          "Xin Chào! Bạn cần tôi giúp đỡ gì không?",
+          "Xin Chào! Bạn cần gì nhỉ?"
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "Tạm biệt",
+        "patterns": ["Bye", "Tạm biệt"],
+        "responses": [
+          "Hẹn gặp lại sau nha bạn ơi",
+          "Tạm biệt bạn nha",
+          "Bái bai bạn"
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "Lạc Tiên",
+        "patterns": ["Công dụng của Lạc Tiên", "Lạc Tiên có tác dụng gì"],
+        "responses": [
+          "Giảm căng thẳng và an thần: Cây lạc tiên có tác dụng an thần, giúp giảm căng thẳng và lo lắng. Nó thường được dùng để làm dịu tinh thần và hỗ trợ điều trị mất ngủ.\nCải thiện chất lượng giấc ngủ: Trích xuất từ cây lạc tiên được dùng để điều trị các vấn đề về giấc ngủ, như mất ngủ và gián đoạn giấc ngủ.\nGiảm đau và chống viêm: Cây lạc tiên cũng được sử dụng để giảm đau và có đặc tính chống viêm, có thể hữu ích trong điều trị các bệnh như viêm khớp.\nHỗ trợ tiêu hóa: Một số nghiên cứu cho thấy cây lạc tiên có thể hỗ trợ cải thiện hệ tiêu hóa và giúp giảm các triệu chứng rối loạn tiêu hóa.\nGiảm triệu chứng của hen suyễn: Các thành phần trong cây lạc tiên có thể giúp giảm các triệu chứng của bệnh hen suyễn bằng cách làm giãn phế quản.\nTác dụng chống oxy hóa: Cây lạc tiên chứa nhiều chất chống oxy hóa, giúp bảo vệ cơ thể chống lại tổn thương do các gốc tự do gây ra."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "Mần Trầu",
+        "patterns": ["Công dụng của Mần Trầu", "Mần Trầu có tác dụng gì"],
+        "responses": [
+          "Chống viêm và giảm đau: Cây mần trầu có đặc tính chống viêm và giảm đau, thường được sử dụng để điều trị các bệnh liên quan đến viêm như viêm khớp, đau lưng và các cơn đau nhức khác trong cơ thể.\nGiảm triệu chứng đau dạ dày: Lá mần trầu có thể giúp giảm các triệu chứng của bệnh đau dạ dày, như đau bụng và ợ nóng, do có khả năng kích thích tiết dịch vị và hỗ trợ tiêu hóa.\nKháng khuẩn và kháng nấm: Các nghiên cứu chỉ ra rằng chiết xuất từ cây mần trầu có tác dụng kháng khuẩn và kháng nấm, có thể hữu ích trong việc điều trị các nhiễm trùng do vi khuẩn và nấm.\nHỗ trợ sức khỏe răng miệng: Cây mần trầu cũng được dùng để làm sạch miệng và giữ gìn sức khỏe răng miệng, nhờ vào các đặc tính kháng khuẩn của nó.\nLàm thuốc chống côn trùng: Lá mần trầu có mùi thơm đặc trưng, thường được dùng để xua đuổi côn trùng và làm thuốc chống muỗi trong một số vùng nông thôn.\nCải thiện hô hấp: Một số người dùng lá mần trầu để cải thiện các vấn đề về đường hô hấp, bao gồm ho và cảm lạnh."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "Mã Đề",
+        "patterns": ["Công dụng của Mã Đề", "Mã Đề có tác dụng gì"],
+        "responses": [
+          "Mã đề có tác dụng thanh nhiệt, chỉ ho, tiêu đờm, lợi tiểu. Đồng thời, loại thảo dược này có tác dụng hiệu quả trong trị ho, long đờm, viêm phế quản, viêm thận, sỏi bàng quang, bí tiểu, sỏi đường tiết niệu, tiểu đỏ, tiểu ra máu, viêm gan, ứ mật, viêm loét dạ dày- tá tràng."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "Sử Quân Tử",
+        "patterns": ["Công dụng của cây Sử Quân Tử", "Cây Sử Quân Tử có tác dụng gì"],
+        "responses": [
+          "Sử Quân Tử có tác dụng dùng chữa các chứng cam của trẻ em như tiểu tiện đục, sát trùng và chữa tả lỵ. Sử quân tử còn có tác dụng kiện tỳ vị chữa hết thảy các bệnh lở, ngứa của trẻ em."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "Sốt",
+        "patterns": ["Sốt", "Các bài thuốc nam trị sốt", "Thuốc trị sốt"],
+        "responses": [
+          "Lá húng quế có tính kháng khuẩn mạnh mẽ, chống vi khuẩn và chống nấm có tác dụng hiệu quả trong điều trị sốt.\nCách làm:\nTrộn 1 muỗng canh húng quế với ¼ muỗng hạt tiêu vào một cốc nước sôi.\nNgâm trong 5 phút, lọc nước và uống cho đến khi hạ sốt.\nLá tre có cách làm tương tự với các bước chi tiết như trên."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "Cảm",
+        "patterns": ["Cảm", "Thuốc nam trị cảm", "Các bài thuốc trị cảm"],
+        "responses": [
+          "Bài 1: Gừng tươi 20g, tỏi 5-6 nhánh, sắc nước uống.\nBài thuốc có tác dụng phòng ngừa và chữa trị bệnh cúm thể phong hàn. Trong bài gừng tươi có tác dụng phát hãn giải biểu (làm ra mồ hôi để giải cảm), tỏi có tác dụng giải độc.\nNghiên cứu hiện đại cho thấy, tỏi có tác dụng ức chế mạnh đối với virus cúm, còn gừng có tác dụng làm giảm hoạt tính của nhiều loại virus."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "Ho",
+        "patterns": ["Thuốc trị Ho", "Ho", "Bài thuốc nam trị bệnh Ho"],
+        "responses": [
+          "1. Lá diếp cá: Rau diếp cá có vị chua, cay, tính mát, tác động vào 2 kinh can và phế. Ngoài các tác dụng như thanh nhiệt, giải độc, thoát mủ (đối với mụn nhọt làm mủ), thông tiểu tiện, giảm phù thũng, sát khuẩn, chống viêm, rau diếp cá còn là một trong những vị thuốc kháng sinh tự nhiên trị ho rất hiệu quả.\n- Nguyên liệu: 1 nắm rau diếp cá; 1 bát nước vo gạo đặc, mới.\n- Cách làm: Rửa sạch từng lá diếp cá, cho vào cối giã nhuyễn. Cho nước vo gạo đã chuẩn bị và rau diếp cá giã nhuyễn vào nồi đun sôi lên, giảm lửa và tiếp tục đun khoảng 20 phút cho lá diếp cá nhừ nát rồi bắc ra để nguội và lọc lấy nước uống. Uống từ 2-3 lần một ngày."
+        ],
+        "context_set": ""
+      }
+    ]
+  }
+  
